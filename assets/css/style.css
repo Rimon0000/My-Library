@@ -1,0 +1,101 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: 'Montserrat', sans-serif;
+  /* font-family: 'Lato', sans-serif; */
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("../images/banner/banner2.jpg");
+  
+    /* Set a specific height */
+    min-height: 100vh;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+.overlay{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(63, 42, 42, 0.5);
+  }
+
+  .top-title{
+      padding-top: 13%;
+      color: antiquewhite;
+  }
+ .book-dsign{
+   height: 500px;
+ }
+
+ .parallax-about {
+  /* The image used */
+  background-image: url("../images/banner/banner1.jpg");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.overlay-about{
+  width: 100%;
+  min-height: 500px;
+  background-color: rgb(63, 42, 42, 0.5);
+}
+
+.top-title-about{
+    padding-top: 13%;
+    color: antiquewhite;
+    font-weight: 500;
+}
+/* about-img */
+.about-img{
+  width: 350px;
+  height:400px;
+  margin-left: 120px;
+  padding: 0px;
+  
+}
+.about-img2{
+  width: 350px;
+  height:400px;
+  margin-left: -36px;
+}
+.about-p{
+  margin-left: -120px;
+  /* text-shadow: aliceblue; */
+  margin-top: 40px;
+}
+/* team-img */
+.team-img{
+  height: 360px;
+}
+.book-lg-img{
+  width: 300px;
+  height: 400px;
+  margin-left: 100px;
+  padding-bottom: 30px;
+}
+.book-sm-img{
+  width: 121px;
+  height: 177px;
+}
+.contact{
+  text-align: center;
+  font-size: 40px;
+}
+.login{
+  font-size: 40px;
+}
+.login-button{
+  text-align: center;
+}
